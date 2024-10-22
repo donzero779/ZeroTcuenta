@@ -1,0 +1,122 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+html{
+	background-image: url(fondo10.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+body{
+width: 1000px;
+height: 1000px;
+background-color:;
+margin: auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background-color: green;
+	margin: auto;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-image: url(fondo10a.png);
+	margin: auto;
+}
+main{
+	width: 1000px;
+	height: 700px;
+	background-color:;
+	margin: auto;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-image: url(fondo11.png);
+	margin: auto;
+	float: left;
+}
+aside{
+	width: 200px;
+	height: 600px;
+	background-image: url(dragon.png);
+	margin: auto;
+	float: left;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color:white;
+	margin: auto;
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	font-family: arial;
+}
+
+nav li{
+	display: inline-block;
+	padding: 14px 15px;
+	box-shadow: 0px 0px 15px #000;
+	color: grey;
+}
+nav li:hover{
+	background-color: ghostwhite;
+	color: darkblue;
+	box-shadow: 0px 0px 15px #fff;
+	transition: 1.7s;
+}
+nav ul{
+	text-align: left;
+}
+/*REDES SOCIALES*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+
+.redes ul li{
+	display: inline-block;
+}
+
+.redes ul li img{
+	width: 25px;
+}
+
+.redes ul li a{
+	display: inline-block;
+	padding: 5px 2px;
+	transition: all 1.0s;
+}
+
+.redes ul li .Google{
+	background-image: url(google.PNG);
+}
+
+.redes ul li .Facebook{
+	background-image: url(facebook.PNG)
+}
+
+.redes ul li .X{
+	background-image: url(X.PNG);
+}
+
+.redes ul li .Discord{
+	background-image: url(Discord.PNG)}
+
+.redes ul li .Patreon{
+	background-image: url(Patreon.PNG)
+}
+
+.redes ul li a:hover{
+	background-color: green;
+	box-shadow: 0 0 30px #ffffff;
+}
